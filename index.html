@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teachers' Day Celebration 2026 | Uluberia College</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#8b002b;--wine2:#720022;--gold:#c9aa43;--cream:#f8f5ee;--ink:#272323;--muted:#77716f;--line:#e9e3d8;--white:#fffdf9}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font-family:Montserrat,Arial,sans-serif;font-size:14px;background:url("./teachers-day-background.jpg") center center/cover fixed no-repeat;background-color:#f8f1e8}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.25;background:radial-gradient(circle at 8% 15%,transparent 0 35px,rgba(139,0,43,.1) 36px 38px,transparent 39px),radial-gradient(circle at 92% 18%,transparent 0 45px,rgba(201,170,67,.14) 46px 48px,transparent 49px),radial-gradient(circle at 12% 85%,transparent 0 50px,rgba(201,170,67,.12) 51px 53px,transparent 54px),radial-gradient(circle at 88% 88%,transparent 0 38px,rgba(139,0,43,.09) 39px 41px,transparent 42px)}
+h1,h2,h3,h4{font-family:Lora,Georgia,serif;color:var(--wine);margin:0}
+button,input,select,textarea{font:inherit}button{cursor:pointer}
+.topbar{height:56px;background:rgba(139,0,43,.97);color:#fff;position:sticky;top:0;z-index:50;border-bottom:3px solid var(--gold);box-shadow:0 3px 14px #0002}
+.nav{max-width:1200px;margin:auto;height:100%;display:flex;align-items:center;gap:24px;padding:0 20px}
+.brand{margin-right:auto;line-height:1.05;color:#fff;text-decoration:none}.brand strong{display:block;font-family:Lora,serif;font-size:17px;letter-spacing:.08em}.brand small{display:block;font-size:8px;letter-spacing:.22em;margin-top:4px}
+.navlinks{display:flex;align-items:center;gap:22px}.navlinks a{color:#fff;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.navlinks a:hover{color:#e8d27a}
+.admin-btn,.primary{background:var(--wine);color:#fff;border:1px solid var(--gold);padding:11px 20px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.admin-btn{background:transparent;color:#f4d65f;border-radius:4px}.menu{display:none;color:#fff;background:none;border:0;font-size:24px}
+.hero{min-height:600px;padding:150px 20px 130px;background:linear-gradient(90deg,rgba(255,253,249,.16),rgba(248,245,238,.06)),url("./teachers-day-background.jpg") center center/cover no-repeat;position:relative;overflow:hidden}.hero:before{content:"TEACHERS' DAY";position:absolute;right:-30px;top:70px;font-family:Lora,Georgia,serif;font-size:clamp(55px,10vw,140px);font-weight:700;color:rgba(139,0,43,.055);transform:rotate(-8deg);pointer-events:none}.hero:after{content:"";position:absolute;width:220px;height:220px;right:7%;bottom:35px;border:2px solid rgba(201,170,67,.25);border-radius:50%;box-shadow:0 0 0 15px rgba(201,170,67,.05),0 0 0 30px rgba(139,0,43,.035);pointer-events:none}.hero-inner{max-width:1160px;margin:auto;position:relative;z-index:2}
+.hero h1{font-size:38px;line-height:1.2;max-width:800px;margin-bottom:22px;color:#6b4f1d;text-shadow:0 2px 8px rgba(255,255,255,.75)}
+.hod{width:max-content;min-width:210px;background:#fffffff0;border-left:3px solid var(--wine);border-radius:4px;padding:11px 14px;box-shadow:0 4px 15px #0000000b;margin:20px 0 0}.hod small{display:block;color:var(--wine);font-size:8px;font-weight:700;letter-spacing:.15em;margin-bottom:5px}.hod b{font-family:Lora,serif;font-size:15px}.actions{display:flex;gap:12px}.outline{background:#fff;color:var(--wine);border:1px solid var(--wine);padding:11px 20px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.section{padding:85px 20px;background:rgba(255,255,255,.48);backdrop-filter:blur(2px)}.section.cream{background:rgba(248,245,238,.50);backdrop-filter:blur(2px)}.container{max-width:1160px;margin:auto}.heading{text-align:center;margin-bottom:42px}.kicker{display:block;color:var(--wine);font-size:9px;font-weight:700;letter-spacing:.25em;margin-bottom:10px}.heading h2{font-size:28px}.heading p{color:#817b78;max-width:620px;margin:18px auto 0;line-height:1.8}.heading h2:after{content:"";display:block;width:70px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:12px auto 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{text-align:center;background:#fff;border:1px solid var(--line);border-top:3px solid var(--wine);border-radius:5px;padding:28px 18px;min-height:155px;box-shadow:0 4px 13px #00000008}.card .round{width:46px;height:46px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;margin:0 auto 14px;color:var(--wine);font-size:19px}.card h3{font-size:15px;margin-bottom:9px}.card p{font-size:10px;color:#888;line-height:1.7;margin:0}
+.schedule{max-width:900px;margin:auto}.schedule-row{display:grid;grid-template-columns:110px 1fr;gap:20px;position:relative}.schedule-row time{text-align:right;color:var(--wine);font-size:10px;font-weight:700;padding-top:15px}.schedule-row .event{border-left:2px solid var(--wine);padding:14px 18px;margin-bottom:18px;background:#fff;border-radius:0 5px 5px 0;box-shadow:0 4px 14px #0000000b;position:relative}.schedule-row .event:before{content:"";position:absolute;left:-9px;top:14px;width:12px;height:12px;background:#fff;border:2px solid var(--wine);border-radius:50%;box-shadow:0 0 0 3px var(--gold)}.event h3{font-size:14px;margin-bottom:5px}.event p{margin:0;color:#888;font-size:10px}
+.formbox{background:#fff;border:1px solid var(--line);border-top:3px solid var(--wine);border-radius:8px;padding:25px;box-shadow:0 5px 18px #0000000b;max-width:900px;margin:auto}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}label{font-size:10px;font-weight:600}label span{color:var(--wine)}input,select,textarea{width:100%;padding:10px 11px;border:1px solid #e3dfda;background:#fff;border-radius:2px;outline:none;font-size:11px}input:focus,select:focus,textarea:focus{border-color:var(--wine);box-shadow:0 0 0 2px #8b002b10}textarea{min-height:92px;resize:vertical}.submit{text-align:center;margin-top:18px}.primary{border-radius:3px;box-shadow:0 5px 12px #8b002b30}.message{display:none;margin:14px auto 0;padding:10px;border-radius:4px;background:#edf7ef;color:#27613a;text-align:center;font-size:11px;max-width:700px}
+.alumni-box{max-width:900px;margin:auto}.alumni-intro{text-align:center;color:#888;font-size:11px;line-height:1.7;margin:-18px auto 28px}.venue-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.info-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px;box-shadow:0 4px 14px #00000009}.info-title{display:flex;gap:12px;align-items:center;border-bottom:1px solid #e8dfc3;padding-bottom:13px;margin-bottom:15px}.info-title .sq{width:32px;height:32px;background:var(--wine);color:#fff;display:grid;place-items:center;border-radius:3px}.info-title h3{font-size:15px}.info-line{display:grid;grid-template-columns:75px 1fr;gap:10px;margin:9px 0;font-size:10px;line-height:1.5}.info-line b{color:var(--wine)}
+footer{background:#171717;color:#aaa;text-align:center;border-top:3px solid var(--gold);padding:28px 15px}footer h3{color:#e6cc66;font-size:15px}footer p{font-size:9px;letter-spacing:.12em;margin:8px 0}footer small{font-size:8px;border-top:1px solid #333;padding-top:13px;display:block;margin-top:15px}
+.modal{display:none;position:fixed;inset:0;background:#2c1d24cc;backdrop-filter:blur(5px);z-index:100;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.login{width:100%;max-width:400px;background:#fff;border-radius:9px;border-top:3px solid var(--wine);padding:28px 24px;position:relative;box-shadow:0 15px 40px #0005}.close{position:absolute;right:14px;top:10px;border:0;background:none;color:#777;font-size:18px}.login h2{text-align:center;font-size:18px}.login .sub{text-align:center;color:#999;font-size:9px;letter-spacing:.14em;margin:8px 0 22px}.login .field{margin-bottom:13px}.login .primary{width:100%}.error{color:#a5002f;font-size:10px;text-align:center;margin-top:10px;display:none}
+.admin{display:none;background:var(--cream);min-height:100vh}.admin-top{background:var(--wine);color:#fff;padding:13px 20px;border-bottom:3px solid var(--gold)}.admin-top-inner{max-width:1250px;margin:auto;display:flex;align-items:center;gap:10px}.admin-top h2{color:#fff;font-size:18px}.admin-top small{display:block;font-size:8px;letter-spacing:.14em;margin-top:4px;color:#ddd}.admin-actions{margin-left:auto;display:flex;gap:8px}.admin-actions button{padding:8px 12px;font-size:9px}.admin-wrap{max-width:1250px;margin:auto;padding:22px 16px 50px}.dashboard{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}.dash{background:#fff;border-radius:6px;padding:18px;border-left:3px solid var(--wine);box-shadow:0 3px 12px #0000000b}.dash:nth-child(2){border-left-color:var(--gold)}.dash:nth-child(3){border-left-color:#39a96b}.dash:nth-child(4){border-left-color:#368ac2}.dash small{font-size:9px;letter-spacing:.15em}.dash b{display:block;color:var(--wine);font-family:Lora,serif;font-size:19px;margin-top:9px}.dash span{color:#888;font-size:9px}.admin-panel{background:#fff;border-radius:6px;margin:18px 0;box-shadow:0 3px 12px #0000000b;overflow:hidden}.admin-panel h3{padding:18px;border-bottom:1px solid var(--line);font-size:15px}.admin-body{padding:18px}.admin-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}.admin-form .full{grid-column:1/-1}.admin-form-actions{display:flex;gap:8px;margin-top:4px}.admin-table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:9px;min-width:800px}th,td{padding:10px;border:1px solid #eee;text-align:left;white-space:nowrap}th{background:#f7f4ed;color:var(--wine);font-size:8px;letter-spacing:.08em}.danger{background:#b23b30;color:#fff;border:0;padding:7px 10px;font-size:8px}.gold{background:#d3b335;color:#201a00;border:0;padding:9px 12px;font-size:9px;font-weight:700}.searchbar{display:flex;gap:8px;align-items:center;margin-bottom:12px}.searchbar input{max-width:300px}
+@media(max-width:850px){.nav{gap:10px}.navlinks{gap:10px}.navlinks a{font-size:8px}.admin-btn{padding:8px 10px}.hero h1{font-size:32px}.hero{min-height:560px;padding-top:140px}.cards{grid-template-columns:1fr}.dashboard{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.topbar{height:auto}.nav{min-height:58px;flex-wrap:wrap;padding:8px 15px}.brand strong{font-size:14px}.menu{display:block}.navlinks{display:none;width:100%;padding:10px 0 5px;flex-wrap:wrap}.navlinks.open{display:flex}.navlinks a{font-size:8px}.admin-btn{margin-left:auto}.hero{padding:110px 18px 95px;min-height:520px}.hero h1{font-size:29px}.section{padding:65px 16px}.heading h2{font-size:24px}.grid2,.venue-grid,.admin-form{grid-template-columns:1fr}.field.full,.admin-form .full{grid-column:auto}.formbox{padding:18px}.schedule-row{grid-template-columns:70px 1fr;gap:10px}.schedule-row time{font-size:8px}.dashboard{grid-template-columns:1fr 1fr}.admin-top-inner{align-items:flex-start}.admin-actions{flex-wrap:wrap}}
+@media(max-width:430px){.dashboard{grid-template-columns:1fr}.hero h1{font-size:26px}.brand small{font-size:7px}}
+</style>
+</head>
+<body>
+<header class="topbar" id="publicTop"><nav class="nav">
+<a class="brand" href="#home"><strong>ULUBERIA COLLEGE</strong><small>DEPARTMENT OF POLITICAL SCIENCE</small></a>
+<button class="menu" onclick="toggleMenu()">☰</button>
+<div class="navlinks" id="navlinks"><a href="#home">Home</a><a href="#about">About</a><a href="#alumni">Old Students / Alumni</a><a href="#schedule">Schedule</a><a href="#registration">Registration</a><a href="#venue">Venue</a><a href="#contact">Contact</a></div>
+<button class="admin-btn" onclick="openLogin()">ADMIN</button></nav></header>
+
+<main id="publicSite">
+<section class="hero" id="home"><div class="hero-inner">
+<h1 id="heroTitle">Teachers' Day Celebration 2026</h1>
+<div class="actions"><button class="primary" onclick="scrollToId('registration')">REGISTER NOW</button><button class="outline" onclick="scrollToId('schedule')">VIEW SCHEDULE</button></div>
+<div class="hod"><small>DEPARTMENT HOD</small><b>Prof. Rakesh Ghosh</b></div>
+</div></section>
+
+<section class="section" id="about"><div class="container"><div class="heading"><span class="kicker">TRIBUTE OF GRATITUDE</span><h2>Teachers' Day Celebration</h2><p id="aboutText">Organised by the Department of Political Science, Uluberia College, to express our deepest respect, gratitude and appreciation to our teachers.</p></div>
+<div class="cards"><div class="card"><div class="round">★</div><h3>Respect</h3><p>Honouring the teachers who guide us with knowledge, patience and care.</p></div><div class="card"><div class="round">♥</div><h3>Gratitude</h3><p>A special occasion to express our sincere thanks for their continuous support.</p></div><div class="card"><div class="round">⚙</div><h3>Inspiration</h3><p>Celebrating the people who inspire students to learn, grow and achieve.</p></div></div></div></section>
+
+<section class="section cream" id="alumni"><div class="container alumni-box"><div class="heading"><span class="kicker">CHERISHED MEMORIES</span><h2>Old Students / Alumni</h2></div><p class="alumni-intro">A special place to welcome and remember the former students of the Department of Political Science, Uluberia College.</p>
+<form class="formbox" id="alumniForm"><div class="grid2">
+<div class="field"><label>Full Name <span>*</span></label><input name="name" required></div><div class="field"><label>Former College Roll</label><input name="roll"></div><div class="field"><label>Passing Year <span>*</span></label><input name="year" required></div><div class="field"><label>Mobile Number <span>*</span></label><input name="mobile" required></div><div class="field"><label>Email Address</label><input type="email" name="email"></div><div class="field"><label>Current Occupation / Profession</label><input name="profession"></div><div class="field full"><label>Message / Memories</label><textarea name="message"></textarea></div></div>
+<div class="submit"><button class="primary">SUBMIT ALUMNI REGISTRATION</button></div><div class="message" id="alumniMsg"></div></form></div></section>
+
+<section class="section" id="schedule"><div class="container"><div class="heading"><span class="kicker">PROGRAMME FLOW</span><h2>Event Schedule</h2><p>Detailed order of ceremonies and cultural performances for the celebration.</p></div><div class="schedule" id="schedulePublic"></div></div></section>
+
+<section class="section cream" id="registration"><div class="container"><div class="heading"><span class="kicker">STUDENT PARTICIPATION</span><h2>Registration</h2><p>Register your participation for the Teachers' Day Celebration 2026.</p></div>
+<form class="formbox" id="registrationForm"><div class="grid2">
+<div class="field"><label>Full Name <span>*</span></label><input name="name" required></div><div class="field"><label>College Roll <span>*</span></label><input name="roll" required></div><div class="field"><label>Department <span>*</span></label><input name="department" required></div><div class="field"><label>Semester <span>*</span></label><select name="semester" required><option value="">Select Semester</option><option>Semester 1</option><option>Semester 2</option><option>Semester 3</option><option>Semester 4</option><option>Semester 5</option><option>Semester 6</option><option>Semester 7</option></select></div><div class="field"><label>Mobile Number <span>*</span></label><input name="mobile" required></div><div class="field"><label>Email Address</label><input type="email" name="email"></div><div class="field full"><label>Programme Participation <span>*</span></label><select name="programme" required><option value="">Select Activity / Programme</option><option>Dance</option><option>Song</option><option>Recitation</option><option>Anchoring</option><option>Other</option></select></div><div class="field full"><label>Additional Comment</label><textarea name="comment"></textarea></div></div>
+<div class="submit"><button class="primary">SUBMIT REGISTRATION</button></div><div class="message" id="registrationMsg"></div></form></div></section>
+
+<section class="section" id="venue"><div class="container"><div class="heading"><span class="kicker">LOCATION & LOGISTICS</span><h2>Venue & Contact</h2></div><div class="venue-grid">
+<div class="info-card"><div class="info-title"><div class="sq">■</div><h3>Event Venue</h3></div><div class="info-line"><b>Venue:</b><span id="venueName">Uluberia College New Auditorium</span></div><div class="info-line"><b>Location:</b><span>Uluberia, Howrah, West Bengal</span></div><div class="info-line"><b>Event Time:</b><span id="venueTime">11:00 AM</span></div><div class="info-line"><b>Entry:</b><span>Registered Students & Alumni with Valid College ID</span></div></div>
+<div class="info-card" id="contact"><div class="info-title"><div class="sq">☎</div><h3>Department Contact</h3></div><div class="info-line"><b>Department:</b><span>Department of Political Science</span></div><div class="info-line"><b>HOD:</b><span>Prof. Rakesh Ghosh</span></div><div class="info-line"><b>Institution:</b><span>Uluberia College, Howrah - 711315</span></div><div class="info-line"><b>Query:</b><span>Contact Department Office for further information</span></div></div>
+</div></div></section></main>
+
+<footer id="publicFooter"><h3>Teachers' Day Celebration 2026</h3><p>DEPARTMENT OF POLITICAL SCIENCE · ULUBERIA COLLEGE</p><small>© 2026 ULUBERIA COLLEGE · DEPARTMENT OF POLITICAL SCIENCE · CELEBRATING ACADEMIC EXCELLENCE</small></footer>
+
+<div class="modal" id="loginModal"><div class="login"><button class="close" onclick="closeLogin()">×</button><h2>Admin Login</h2><div class="sub">TEACHERS' DAY MANAGEMENT PORTAL</div>
+<form id="loginForm"><div class="field"><label>Username</label><input id="adminUser" required></div><div class="field"><label>Password</label><input id="adminPass" type="password" required></div><button class="primary">LOGIN TO ADMIN PANEL</button><div class="error" id="loginError">Invalid username or password.</div></form></div></div>
+
+<section class="admin" id="adminSite"><div class="admin-top"><div class="admin-top-inner"><div><h2>Teachers' Day Admin Panel</h2><small>ULUBERIA COLLEGE · POLITICAL SCIENCE</small></div><div class="admin-actions"><button class="gold" onclick="logout()">LOGOUT</button></div></div></div>
+<div class="admin-wrap">
+<div class="dashboard"><div class="dash"><small>STUDENT REGISTRATIONS</small><b id="studentCount">0</b><span>Total submissions</span></div><div class="dash"><small>ALUMNI REGISTRATIONS</small><b id="alumniCount">0</b><span>Total alumni</span></div><div class="dash"><small>EVENT VENUE</small><b id="dashVenue">Auditorium</b><span>Current venue</span></div><div class="dash"><small>EVENT TIME</small><b id="dashTime">11:00 AM</b><span>Current time</span></div></div>
+
+<div class="admin-panel"><h3>Event Settings</h3><div class="admin-body"><form class="admin-form" id="settingsForm">
+<div class="field"><label>Event Title</label><input id="setTitle"></div><div class="field"><label>Event Date</label><input id="setDate"></div><div class="field"><label>Venue</label><input id="setVenue"></div><div class="field"><label>Event Time</label><input id="setTime"></div><div class="field full"><label>Hero Title</label><input id="setHeroTitle"></div><div class="field full"><label>About Description</label><textarea id="setAbout"></textarea></div><div class="admin-form-actions"><button type="submit" class="gold">SAVE SETTINGS</button></div></form></div></div>
+
+<div class="admin-panel"><h3>Schedule Management</h3><div class="admin-body"><form class="admin-form" id="scheduleForm">
+<div class="field"><label>Time</label><input id="schTime" required></div><div class="field"><label>Event</label><input id="schEvent" required></div><div class="field full"><label>Description</label><input id="schDesc"></div><div class="admin-form-actions"><button type="submit" class="gold">ADD SCHEDULE</button></div></form><div id="adminScheduleList" style="margin-top:18px"></div></div></div>
+
+<div class="admin-panel"><h3>Student Registrations</h3><div class="admin-body"><div class="searchbar"><input id="studentSearch" placeholder="Search student..." oninput="renderTables()"></div><div class="admin-table-wrap"><table><thead><tr><th>Name</th><th>Roll</th><th>Department</th><th>Semester</th><th>Mobile</th><th>Email</th><th>Programme</th><th>Comment</th><th>Action</th></tr></thead><tbody id="studentTable"></tbody></table></div></div></div>
+
+<div class="admin-panel"><h3>Alumni Registrations</h3><div class="admin-body"><div class="searchbar"><input id="alumniSearch" placeholder="Search alumni..." oninput="renderTables()"></div><div class="admin-table-wrap"><table><thead><tr><th>Name</th><th>Roll</th><th>Passing Year</th><th>Mobile</th><th>Email</th><th>Profession</th><th>Message</th><th>Action</th></tr></thead><tbody id="alumniTable"></tbody></table></div></div></div>
+</div></section>
+
+<script>
+const ADMIN_USERNAME="Uluberiacollege";
+const ADMIN_PASSWORD="@Teachersday01";
+
+const defaultSettings={
+ title:"Teachers' Day Celebration 2026",
+ date:"5th September 2026",
+ venue:"Uluberia College New Auditorium",
+ time:"11:00 AM",
+ heroTitle:"Teachers' Day Celebration 2026",
+ about:"Organised by the Department of Political Science, Uluberia College, to express our deepest respect, gratitude and appreciation to our teachers."
+};
+const defaultSchedule=[
+ {time:"11:00 AM",event:"Welcome & Opening",desc:"Welcome address and formal opening of the celebration."},
+ {time:"11:15 AM",event:"Teachers' Felicitation",desc:"A respectful felicitation ceremony for our teachers."},
+ {time:"11:45 AM",event:"Cultural Programme",desc:"Dance, song, recitation and other student performances."},
+ {time:"01:00 PM",event:"Vote of Thanks",desc:"Closing remarks and expression of gratitude."}
+];
+
+let settings=JSON.parse(localStorage.getItem("td_settings")||"null")||defaultSettings;
+let students=JSON.parse(localStorage.getItem("td_students")||"[]");
+let alumni=JSON.parse(localStorage.getItem("td_alumni")||"[]");
+let schedule=JSON.parse(localStorage.getItem("td_schedule")||"null")||defaultSchedule;
+
+function saveAll(){localStorage.setItem("td_settings",JSON.stringify(settings));localStorage.setItem("td_students",JSON.stringify(students));localStorage.setItem("td_alumni",JSON.stringify(alumni));localStorage.setItem("td_schedule",JSON.stringify(schedule))}
+function toggleMenu(){document.getElementById("navlinks").classList.toggle("open")}
+function scrollToId(id){document.getElementById(id)?.scrollIntoView({behavior:"smooth"})}
+function openLogin(){document.getElementById("loginModal").classList.add("show")}
+function closeLogin(){document.getElementById("loginModal").classList.remove("show");document.getElementById("loginError").style.display="none"}
+function renderSchedule(){
+ const box=document.getElementById("schedulePublic");
+ box.innerHTML=schedule.map(x=>`<div class="schedule-row"><time>${escapeHtml(x.time)}</time><div class="event"><h3>${escapeHtml(x.event)}</h3><p>${escapeHtml(x.desc||"")}</p></div></div>`).join("");
+}
+function applySettings(){
+ document.title=settings.title+" | Uluberia College";
+ document.getElementById("heroTitle").textContent=settings.heroTitle;
+ document.getElementById("aboutText").textContent=settings.about;
+ document.getElementById("venueName").textContent=settings.venue;
+ document.getElementById("venueTime").textContent=settings.time;
+ document.getElementById("dashVenue").textContent=settings.venue;
+ document.getElementById("dashTime").textContent=settings.time;
+ document.getElementById("setTitle").value=settings.title;
+ document.getElementById("setDate").value=settings.date;
+ document.getElementById("setVenue").value=settings.venue;
+ document.getElementById("setTime").value=settings.time;
+ document.getElementById("setHeroTitle").value=settings.heroTitle;
+ document.getElementById("setAbout").value=settings.about;
+ renderSchedule(); renderAdminSchedule(); renderTables();
+}
+function showMsg(id,text){const e=document.getElementById(id);e.textContent=text;e.style.display="block";setTimeout(()=>e.style.display="none",4000)}
+document.getElementById("registrationForm").addEventListener("submit",e=>{
+ e.preventDefault();const o=Object.fromEntries(new FormData(e.target).entries());o.id=Date.now();o.date=new Date().toLocaleString();students.push(o);saveAll();e.target.reset();showMsg("registrationMsg","Registration submitted successfully.");renderTables();
+});
+document.getElementById("alumniForm").addEventListener("submit",e=>{
+ e.preventDefault();const o=Object.fromEntries(new FormData(e.target).entries());o.id=Date.now();o.date=new Date().toLocaleString();alumni.push(o);saveAll();e.target.reset();showMsg("alumniMsg","Alumni registration submitted successfully.");renderTables();
+});
+document.getElementById("loginForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ if(document.getElementById("adminUser").value===ADMIN_USERNAME && document.getElementById("adminPass").value===ADMIN_PASSWORD){
+   closeLogin();document.getElementById("publicTop").style.display="none";document.getElementById("publicSite").style.display="none";document.getElementById("publicFooter").style.display="none";document.getElementById("adminSite").style.display="block";applySettings();
+ }else document.getElementById("loginError").style.display="block";
+});
+function logout(){document.getElementById("adminSite").style.display="none";document.getElementById("publicTop").style.display="block";document.getElementById("publicSite").style.display="block";document.getElementById("publicFooter").style.display="block";window.scrollTo(0,0)}
+document.getElementById("settingsForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ settings={title:document.getElementById("setTitle").value||defaultSettings.title,date:document.getElementById("setDate").value,venue:document.getElementById("setVenue").value||defaultSettings.venue,time:document.getElementById("setTime").value||defaultSettings.time,heroTitle:document.getElementById("setHeroTitle").value||defaultSettings.heroTitle,about:document.getElementById("setAbout").value||defaultSettings.about};
+ saveAll();applySettings();alert("Settings saved successfully.");
+});
+document.getElementById("scheduleForm").addEventListener("submit",e=>{
+ e.preventDefault();schedule.push({time:schTime.value,event:schEvent.value,desc:schDesc.value});saveAll();e.target.reset();renderSchedule();renderAdminSchedule();
+});
+function renderAdminSchedule(){document.getElementById("adminScheduleList").innerHTML=schedule.map((x,i)=>`<div style="display:flex;gap:10px;align-items:center;border-bottom:1px solid #eee;padding:9px 0;font-size:10px"><b>${escapeHtml(x.time)}</b><span>${escapeHtml(x.event)}</span><small style="color:#888">${escapeHtml(x.desc||"")}</small><button class="danger" style="margin-left:auto" onclick="deleteSchedule(${i})">DELETE</button></div>`).join("")}
+function deleteSchedule(i){schedule.splice(i,1);saveAll();renderSchedule();renderAdminSchedule()}
+function renderTables(){
+ document.getElementById("studentCount").textContent=students.length;document.getElementById("alumniCount").textContent=alumni.length;
+ const sq=(document.getElementById("studentSearch")?.value||"").toLowerCase(),aq=(document.getElementById("alumniSearch")?.value||"").toLowerCase();
+ document.getElementById("studentTable").innerHTML=students.filter(x=>Object.values(x).join(" ").toLowerCase().includes(sq)).map((x,i)=>`<tr><td>${e(x.name)}</td><td>${e(x.roll)}</td><td>${e(x.department)}</td><td>${e(x.semester)}</td><td>${e(x.mobile)}</td><td>${e(x.email)}</td><td>${e(x.programme)}</td><td>${e(x.comment)}</td><td><button class="danger" onclick="deleteStudent(${students.indexOf(x)})">DELETE</button></td></tr>`).join("")||`<tr><td colspan="9" style="text-align:center;color:#999">No registrations yet.</td></tr>`;
+ document.getElementById("alumniTable").innerHTML=alumni.filter(x=>Object.values(x).join(" ").toLowerCase().includes(aq)).map((x,i)=>`<tr><td>${e(x.name)}</td><td>${e(x.roll)}</td><td>${e(x.year)}</td><td>${e(x.mobile)}</td><td>${e(x.email)}</td><td>${e(x.profession)}</td><td>${e(x.message)}</td><td><button class="danger" onclick="deleteAlumni(${alumni.indexOf(x)})">DELETE</button></td></tr>`).join("")||`<tr><td colspan="8" style="text-align:center;color:#999">No alumni registrations yet.</td></tr>`;
+}
+function deleteStudent(i){if(confirm("Delete this registration?")){students.splice(i,1);saveAll();renderTables()}}
+function deleteAlumni(i){if(confirm("Delete this alumni registration?")){alumni.splice(i,1);saveAll();renderTables()}}
+function e(v){return escapeHtml(v)}
+function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
+applySettings();
+</script>
+</body>
+</html>
